@@ -1,6 +1,6 @@
 <template>
   <h1>{{ animal }} </h1>
-  <h2>원숭이는 {{ food }} 입니다.</h2>
+  <h2>원숭이는 {{ food }} 입니다.!!</h2>
   <h3 v-text="food"></h3>
   <input type="text" v-model="food">
   <div v-html="alertMessage"></div>
