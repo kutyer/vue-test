@@ -7,7 +7,7 @@
   <img v-bind:src="imageUrl" alt="random">
   <a :href="food">{{food}}</a>
   <hr/>
-  <h2 v-bind:class="{red : food == 'apple', 'not-good' : food == 'rice'}">원숭이는 {{ food }} 을 좋아합니다.</h2>
+  <h2 v-bind:class="{red : food === 'apple', 'not-good' : food === 'rice'}">원숭이는 {{ food }} 을 좋아합니다.</h2>
 
 
   <hr/>
